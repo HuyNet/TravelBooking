@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "322174615571",
+    "project_id": "travelbook-475c6",
+    "storage_bucket": "travelbook-475c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322174615571:android:f319088879fb8a2dcf3fe6",
+        "android_client_info": {
+          "package_name": "com.example.travelbooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322174615571-71icehg5hvlcjbmcmqos79bm68leupds.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.travelbooking",
+            "certificate_hash": "d2448db0b00f09f066df55e1eebec203e5de9722"
+          }
+        },
+        {
+          "client_id": "322174615571-606j8fk9n47ftcapqmkt2qb3c13a8i6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeCSP_5Ox1W2NksowJsJemt4O97c4MlIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322174615571-606j8fk9n47ftcapqmkt2qb3c13a8i6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

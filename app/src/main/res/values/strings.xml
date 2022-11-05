@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TravelBooking</string>
+    <string name="new_user_sigup">Tạo tài khoản mới?<b>Đăng ký</b></string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_card">Danh sách đăt tour</string>
+    <string name="nav_profile">Tài khoản</string>
+    <string name="nav_logout">Đăng xuất</string>
+    <string name="navigation_drawer_open">Navigation drawer open</string>
+    <string name="navigation_drawer_close">Navigation drawer close</string>
+</resources>

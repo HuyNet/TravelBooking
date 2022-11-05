@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbarRL"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="@drawable/shape_toolbar02">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:text="Dashboard Admin"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/subTitleTv"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/titleTv"
+            android:layout_height="wrap_content"
+            android:text="admin@gamil.com"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <ImageButton
+            android:id="@+id/logoutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_power_white"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15dp"
+            android:paddingTop="18dp"
+            android:background="@android:color/transparent"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <!--add category-->
+        <Button
+            android:id="@+id/addCategoryBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm danh mục"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_button01"
+            android:minHeight="50dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+        <!--add product-->
+        <Button
+            android:id="@+id/addProductBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm điểm DL"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_button01"
+            android:minHeight="50dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+        <!--List oder-->
+        <Button
+            android:id="@+id/listOder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Danh sách ĐL"
+            android:layout_weight="1"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/shape_button01"
+            android:minHeight="50dp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
